@@ -1,0 +1,48 @@
+.Header{
+  background-color: #282c34;
+  position: relative;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.try{
+  width: 100%;
+  padding: 59px;
+}
+
+.logo{
+    width: 50px;
+    padding: 25px;
+}
+
+.navBarLinks{
+  width: auto;
+  align-self: flex-end;
+  bottom: 0;
+  color: whitesmoke;
+  text-decoration:none;
+  padding: 20px 2% 20px 2%;
+  white-space: nowrap;
+}
+
+.navBarLinks:hover{
+  background-color: #464d5a ;
+  color: aquamarine;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+      animation: logo-spin infinite 0.5s linear;
+    }
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
