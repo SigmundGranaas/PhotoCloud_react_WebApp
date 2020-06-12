@@ -17,7 +17,10 @@ class Header extends Component {
           <Link className="navBarLinks" to="/howto">
             Howto
           </Link>
-          <a className="navBarLinks" href="Github.com/">
+          <a
+            className="navBarLinks"
+            href="https://www.github.com/sigmundgranaas/PhotoCloud_react_WebApp/"
+          >
             Source code
           </a>
           <Link className="navBarLinks" to="/signup">
