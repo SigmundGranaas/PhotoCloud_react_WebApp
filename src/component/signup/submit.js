@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import BaseInput from "./baseinput.js";
 import "./Signup.css";
 
 class Submit extends Component {
@@ -19,12 +18,13 @@ class Submit extends Component {
   render() {
     return (
       <div>
-        <BaseInput
+        <button
           type="submit"
-          value={this.state.submit}
-          name={this.props.name}
+          form={this.props.form}
           onChange={this.handlesubmit}
-        />
+          >
+            {this.props.name}
+            </button>
       </div>
     );
   }
